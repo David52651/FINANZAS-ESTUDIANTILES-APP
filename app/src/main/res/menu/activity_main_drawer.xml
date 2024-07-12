@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/chart"
+            android:title="@string/menu_account" />
+        <item
+            android:id="@+id/nav_saving"
+            android:icon="@drawable/ic_menu_piggy_bank"
+            android:title="@string/menu_saving" />
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/ic_menu_alarm"
+            android:title="@string/menu_reminder" />
+
+        <item
+            android:id="@+id/nav_graphics"
+            android:icon="@drawable/bar_chart"
+            android:title="@string/menu_graphics" />
+
+    </group>
+    <item android:title="Otros">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_exit_to_app"
+                android:title="Salir" />
+        </menu>
+    </item>
+</menu>

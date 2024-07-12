@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Estudiante Upn</string>
+    <string name="nav_header_subtitle">N00169375@upn.pe</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configurar</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_account">Cuenta</string>
+    <string name="menu_saving">Ahorro</string>
+    <string name="menu_reminder">Recordatorio</string>
+    <string name="menu_graphics">Graficos</string>
+    <string name="menu_logout">Salir</string>
+</resources>

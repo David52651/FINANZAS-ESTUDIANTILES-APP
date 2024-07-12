@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.arcjas.studentapp.ui.account.AccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.arcjas.studentapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_reminder"
+        android:name="com.arcjas.studentapp.ui.reminder.ReminderFragment"
+        android:label="@string/menu_reminder"
+        tools:layout="@layout/fragment_reminder" />
+    <fragment
+        android:id="@+id/nav_saving"
+        android:name="com.arcjas.studentapp.ui.saving.SavingFragment"
+        android:label="@string/menu_saving"
+        tools:layout="@layout/fragment_saving" />
+
+    <fragment
+        android:id="@+id/nav_graphics"
+        android:name="com.arcjas.studentapp.ui.graphics.GraphicsFragment"
+        android:label="@string/menu_graphics"
+        tools:layout="@layout/fragment_graphics" />
+</navigation>
